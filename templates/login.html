@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block topbar %}
+
+
+  <div id="fb-root"></div>
+  <h1>Welcome</h1>
+  <div id="login-flow">
+    <fb:login-button perms="email,offline_access,user_photos, user_likes, friends_likes, user_birthday, friends_birthday, friends_interests" show-faces="true"></fb:login-button>
+
+    <fb:login-button perms="email,offline_access,user_birthday,friends_birthday,friends_interests,friends_likes" show-faces="true"></fb:login-button>
+  </div>
+
+{% endblock %}
+
+{% block content %}
+{% endblock %}

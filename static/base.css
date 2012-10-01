@@ -1,0 +1,109 @@
+/*
+  title: base css
+*/
+
+
+/* =global elements
+--------------------------------------------- */
+body {
+  color: #999;
+  font: 14px/1.5em "Lucida Grande", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  width: 720px;
+  margin: 20px;
+}
+
+a:link, a:visited {
+  color: #3b5998;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
+}
+
+h1 {
+  color: #656565;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+/* ------------------------------------------ */
+
+/* =header
+--------------------------------------------- */
+
+/* ------------------------------------------ */
+
+/* ------------------------------------------ */
+
+/* =clearfix
+--------------------------------------------- */
+.clearfix:after {
+  clear: both;
+  content: ".";
+  display: block;
+  font-size: 0;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.people{
+  width:160px;
+  height:180px;
+  border:1px solid #ccc;
+  margin: 5px;
+  float:left;
+  box-shadow: 0px 0px 6px 1px rgba(0,0,0,.2)
+}
+
+.people img{
+  overflow:hidden;
+  padding: 5px;
+  max-height:100px;
+  max-width:100px;
+
+}
+
+.people:hover { color:#0066CC; background:#DDD; }
+.masonry{
+  border:1px solid #ccc;
+
+}
+.product {
+  border:1px solid #ccc;
+  padding:3px;
+  margin-bottom:10px;
+  box-shadow: 0px 0px 6px 1px rgba(0,0,0,.2)
+}
+
+.product img {
+  float: left;
+  padding-right: 5px;
+  width: 80px;
+  height: 100px;
+}
+
+.product:after {
+  clear: left;
+  content: ".";
+  visibility: hidden;
+  line-height: 0;
+  display: block;
+}
+
+.product:hover { color:#0066CC; background:#DDD; }
+
+/*div.masonry-info{
+  background-color:#F5F5F5;
+  white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+  padding:1px;
+}
+*/
